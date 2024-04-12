@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 multilingual_assistant.egg-info/PKG-INFO

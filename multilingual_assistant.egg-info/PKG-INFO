@@ -3,6 +3,7 @@ Name: multilingual-assistant
 Version: 0.0.1
 Author: Arya
 Author-email: arya1790@gmail.com
+License-File: LICENSE
 Requires-Dist: SpeechRecognition
 Requires-Dist: pipwin
 Requires-Dist: pyaudio

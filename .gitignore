@@ -1,1 +1,4 @@
-multilingual
+env
+genai
+/.env
+.env
