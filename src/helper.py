@@ -13,7 +13,8 @@ os.environ["GOOGLE_API_KEY"]=GOOGLE_API_KEY
 def voice_input():
     r=sr.Recognizer()
     
-    with sr.Microphone() as source:
+    with sr.Microphone(device_index=2) as source:
+        r.adjust_for_ambient_noise(source)
         print("listening...")
         audio=r.listen(source)
     try:
